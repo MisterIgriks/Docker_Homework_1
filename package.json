@@ -1,0 +1,28 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "homework_1",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MisterIgriks/docker.git"
+  },
+  "author": "Ihor Lucenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterIgriks/docker/issues"
+  },
+  "homepage": "https://github.com/MisterIgriks/docker#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {}
+}

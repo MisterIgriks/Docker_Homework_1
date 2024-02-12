@@ -1,0 +1,18 @@
+ARG PORT=5000
+
+FROM node:latest
+
+ENV PORT $PORT
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE $PORT
+
+CMD ["npm", "start"]
+
